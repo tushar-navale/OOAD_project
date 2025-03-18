@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-radial-[at_25%_25%] from-white to-zinc-900 to-75%">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-5xl font-bold text-center text-gray-900 mb-8">
           Welcome to FitLife Journal
@@ -14,7 +14,7 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Feature Cards */}
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
             <img
               className="w-auto pb-4"
               src="./public/daniel-apodaca-WdoQio6HPVA-unsplash.jpg"
@@ -33,7 +33,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
           <img
               className="w-auto pb-4"
               src="./public/danielle-cerullo-CQfNt66ttZM-unsplash.jpg"
@@ -48,7 +48,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-lg">
+          <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
           <img
               className="object-fill pb-4"
               src="./public/edgar-chaparro-sHfo3WOgGTU-unsplash.jpg"
